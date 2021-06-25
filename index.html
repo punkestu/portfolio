@@ -1,20 +1,115 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="style.css">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/script.js"></script>
+        <!-- navbar -->
+        <div class="navbar-fixed">
+            <nav class="grey">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#home" class="brand-logo">PANGESTU</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about"  >About</a></li>
+                            <li><a href="#project">Projects</a></li>
+                            <li><a class="grey-text text-lighten-2" href="#contact">Contact me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav grey" id="mobile-nav">
+            <li><a class="white-text" href="#home"  >Home</a></li>
+            <li><a class="white-text" href="#about"  >About</a></li>
+            <li><a class="white-text" href="#project">Projects</a></li>
+            <li><a class="grey-text text-lighten-2" href="#contact">Contact me</a></li>
+        </ul>
+
+        <!-- jumbotron -->
+        <div id="home" class="jumbotron grey lighten-2">
+            <img class="dispic" src="img/dispic.png">
+            <div class="container">
+                <h5 class="center-align grey-text">MOCH BIMA PANGESTU</h5>
+                <h6 class="center-align grey-text">I am Profesional Programmer</h6>
+            </div>
+        </div>
+
+        <!-- about -->
+        <div id="about" class="grey lighten-2">
+            <div class="container">
+                <div class="row">
+                    <h5 class="center-align grey-text">ABOUT ME</h5>
+                    <p class="col m6 s12 grey-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eligendi quam neque impedit iusto nulla dignissimos sequi? Delectus consectetur impedit unde, sit fugit vel possimus aliquid nemo iusto officia temporibus blanditiis odit ea totam, ipsum illum, neque voluptates modi perspiciatis.
+                    </p>
+                    <div class="col m6 s12">
+                        <h6>Desktop</h6>
+                        <div class="progress grey lighten-1">
+                            <div class="grey determinate" style="width: 90%"></div>
+                        </div>
+                        <h6>Backend</h6>
+                        <div class="progress grey lighten-1">
+                            <div class="grey determinate" style="width: 35%"></div>
+                        </div>
+                        <h6>Frontend</h6>
+                        <div class="progress grey lighten-1">
+                            <div class="grey determinate" style="width: 55%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- projects -->
+        <div id="project" class="grey lighten-2">
+            <div class="container">
+                <div class="row">
+                    <h5 class="center-align grey-text">MY PROJECTS</h5>
+                    <div class="col m6 s12">
+                        <div class="img">
+                            <a href=""><img src="img/icon/games.png"></a>
+                        </div>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="img">
+                            <a href=""><img src="img/icon/art.png"></a>
+                        </div>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="img">
+                            <a href=""><img src="img/icon/wrench.png"></a>
+                        </div>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="img">
+                            <a href=""><img src="img/icon/gear.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="contact" class="grey lighten-2">
+            <h5 class="grey-text">CONTACT ME</h5>
+            <img class="contact" src="img/contact.svg" width="200px" height="200px">
+        </div>
+
+        <!-- footer -->
+        <footer class="grey"><h6 class="container center-align white-text">Bima Pangestu 2021</h6></footer>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
   </html>
