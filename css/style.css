@@ -7,6 +7,18 @@
     justify-content: center;
 }
 
+body{
+    background-color: #2c3439ff;
+}
+
+nav,footer,.sidenav{
+    background-color: #f26727ff !important;
+}
+
+.bg{
+    background-color: #68bfd9ff;
+}
+
 .dispic{
     width: 200px;
     height: 200px;
