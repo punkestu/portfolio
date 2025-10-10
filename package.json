@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:tailwind": "npx @tailwindcss/cli -i ./styles/tailwind.css -o ./styles/tailwind.dist.css --watch"
+    "dev:tailwind": "npx @tailwindcss/cli -i ./styles/tailwind.css -o ./styles/tailwind.dist.css --watch",
+    "build:tailwind": "npx @tailwindcss/cli -i ./styles/tailwind.css -o ./styles/tailwind.dist.css --minify"
   },
   "author": "",
   "license": "ISC",
