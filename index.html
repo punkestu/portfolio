@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portonya Bima</title>
+    <link rel="stylesheet" href="./styles/tailwind.dist.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="font-mono">
+    <section class="w-screen h-screen flex justify-center items-center">
+      <h1 class="text-6xl font-bold" data-aos="zoom-in">Halo</h1>
+    </section>
+
+    <section class="w-screen h-screen flex justify-center items-center gap-6">
+      <div
+        class="w-1/6 aspect-square object-cover rounded-full ml-10 group overflow-hidden relative"
+        data-aos="fade-right"
+      >
+        <img
+          src="/assets/profile_knight.webp"
+          alt="Profile Knight"
+          class="w-full h-full object-cover rounded-full absolute top-full group-hover:top-0 transition-all duration-300"
+        />
+        <img
+          src="/assets/profile.webp"
+          alt="Profile"
+          class="w-full h-full object-cover rounded-full"
+        />
+      </div>
+      <div data-aos="fade-left" class="max-w-1/5">
+        Aku Bima<br />
+        si <strong>Programmer</strong> <s>Jago</s> <strong>Fomo</strong
+        ><br /><br />
+        Biasa dibayar buat ngoding tapi lebih suka explore hal baru. Suka ngopi,
+        piknik, kamera analog, barang antik, dan hal-hal skena lainnya.
+      </div>
+    </section>
+
+    <section class="w-screen h-screen p-8 flex flex-col justify-center">
+      <h2 class="font-semibold text-3xl text-center" data-aos="fade-down">
+        Gears
+      </h2>
+      <div class="flex justify-evenly gap-4 mt-8">
+        <div class="w-1/4 overflow-hidden relative group" data-aos="fade-up">
+          <div
+            class="absolute w-full h-full flex justify-center items-center bg-gray-50/70 font-semibold text-lg top-full group-hover:top-0 transition-all duration-700"
+          >
+            Macbook Air M1 2020
+          </div>
+          <img
+            class="w-full h-full object-cover"
+            src="/assets/macbook.webp"
+            alt="macbook"
+          />
+        </div>
+        <div
+          class="w-1/4 overflow-hidden relative group"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div
+            class="absolute w-full h-full flex justify-center items-center bg-gray-50/70 font-semibold text-lg top-full group-hover:top-0 transition-all duration-700"
+          >
+            Timemore Chestnut C2
+          </div>
+          <img
+            class="w-full h-full object-cover"
+            src="/assets/timemore.webp"
+            alt="timemore"
+          />
+        </div>
+        <div
+          class="w-1/4 overflow-hidden relative group"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div
+            class="absolute w-full h-full flex justify-center items-center bg-gray-50/70 font-semibold text-lg top-full group-hover:top-0 transition-all duration-700"
+          >
+            Yashica MF-2 Super DX
+          </div>
+          <img
+            class="w-full h-full object-cover"
+            src="/assets/yashica.webp"
+            alt="yashica"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-screen h-screen flex flex-col justify-center items-center p-8"
+    >
+      <h2 class="font-semibold text-3xl text-center" data-aos="fade-down">
+        Projects
+      </h2>
+      <div class="mt-8 flex gap-6 w-full">
+        <a
+          href="https://github.com/punkestu"
+          class="border border-gray-300 rounded-md px-4 py-2 hover:bg-gray-100 transition grow flex flex-col items-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          target="_blank"
+        >
+          <img src="/assets/projects.webp" alt="Projects" class="w-full mb-2" />
+          GitHub
+        </a>
+        <a
+          href="/gallery.html"
+          class="border border-gray-300 rounded-md px-4 py-2 hover:bg-gray-100 transition grow flex flex-col items-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <img src="/assets/gallery.webp" alt="Gallery" class="w-full mb-2" />
+          Gallery
+        </a>
+      </div>
+    </section>
+
+    <section
+      class="w-screen h-screen flex flex-col justify-center items-center p-8"
+    >
+      <h2 class="font-semibold text-3xl text-center" data-aos="fade-down">
+        Contact
+      </h2>
+      <div class="mt-8 flex justify-center gap-6 w-full">
+        <a href="" class="underline hover:text-pink-700 duration-150"
+          >Instagram</a
+        >
+        <a href="" class="underline hover:text-blue-500 duration-150"
+          >LinkedIn</a
+        >
+        <a href="" class="underline hover:text-green-500 duration-150"
+          >GitHub</a
+        >
+      </div>
+      <form
+        action="mailto:pangestubima89@gmail.com"
+        method="get"
+        class="border border-gray-300 p-4 mt-4"
+      >
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          class="border border-gray-300 rounded-md px-2 py-1 w-full mt-2"
+          data-aos="fade-up"
+          placeholder="Say hi!"
+        />
+        <label for="body" class="mt-4 block">Message</label>
+        <textarea
+          id="body"
+          name="body"
+          rows="4"
+          class="border border-gray-300 rounded-md px-2 py-1 w-full mt-2"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          placeholder="Hello Bima!"
+        ></textarea>
+        <button
+          type="submit"
+          class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition w-full"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Email Me
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <div
+        class="w-screen h-16 flex justify-center items-center border-t border-gray-300"
+      >
+        © 2025 Bima
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
